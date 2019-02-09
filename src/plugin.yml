@@ -1,0 +1,19 @@
+name: ChatRoom
+main: com.waaz.main.Main
+version: 0.1
+author: Waaz
+
+commands:
+  chatroom:
+    description: 채팅방을 바꿉니다.
+    
+permissions:
+  cr.*:
+    description: Gives all access 
+    default: op
+  cr.hear:
+    description: To hear chat from other rooms
+    default: op
+  cr.select:
+    description: To command
+    default: true
