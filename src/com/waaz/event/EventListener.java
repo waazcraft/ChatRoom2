@@ -52,7 +52,6 @@ public class EventListener implements Listener{
 					try {
 						gui.openChat(player);
 					} catch (IOException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					
